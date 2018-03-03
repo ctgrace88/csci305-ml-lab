@@ -1,15 +1,16 @@
-<firstname> <lastname>
+Connor Grace
 CSCI 305
 Spring 2018
 Lab Questions
 =======================
-1.
+1. val it = [4,2,5,2,6,10] : int list
 
-2.
+2. Function f uses recursion to add 1 to each element of the list that is input into the function.
+   If the list is empty, it just returns an empty list.
 
-3.
+3. a if the list is empty, the empty list is returned
 
-4.
+4. b if the list is not empty, 1 is added to every value in the list
 
 5.
 

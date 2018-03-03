@@ -2,14 +2,23 @@
 *
 * CSCI 305 - ML Programming Lab
 *
-* <firstname> <lastname>
-* <email-address>
+* Connor Grace
+* connor.grace88@gmail.com
 *
 ***************************************************************)
 
-(* Define your data type and functions here *)
+(* Quit program - OS.Process.exit(OS.Process.success); *)
 
-(* Simple function to stringify the contents of a Set of characters *)
+(* Define your data type and functions here *)
+datatype 'element Set = nil
+   | ins of 'element * 'element Set;
+
+fun f [] = [] (* a if the list is empty, the empty list is returned*)
+   | f (x::xs) = (x + 1) :: (f xs); (* b if the list is not empty, 1 is added to every value in the list*)
+
+fun isMember e Set = ;
+
+(*(* Simple function to stringify the contents of a Set of characters *)
 fun stringifyCharSet Empty = ""
   | stringifyCharSet (Set(y, ys)) = Char.toString(y) ^ " " ^ stringifyCharSet(ys);
 
@@ -34,12 +43,12 @@ list2Set [1, 3, 2];
 list2Set [#"a", #"b", #"c"];
 list2Set [];
 list2Set [6, 2, 2];
-list2Set ["x", "y", "z", "x"];
+list2Set ["x", "y", "z", "x"];*)
 
 (* Question 1 *)
 f [3, 1, 4, 1, 5, 9]
 
-(* Question 5 *)
+(*(* Question 5 *)
 val quest5 = isMember "one" (list2Set ["1", "2", "3", "4"]);
 print ("\nQuestion 5: " ^ Bool.toString(quest5) ^ "\n");
 
@@ -55,4 +64,4 @@ print_str (union (list2Set ["green", "eggs", "and"]) (list2Set ["ham"]));
 
 (* Question 10 *)
 print "\nQuestion 10: ";
-print_str (intersect (list2Set ["stewed", "tomatoes", "and", "macaroni"]) (list2Set ["macaroni", "and", "cheese"]));
+print_str (intersect (list2Set ["stewed", "tomatoes", "and", "macaroni"]) (list2Set ["macaroni", "and", "cheese"]));*)

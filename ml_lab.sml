@@ -10,13 +10,13 @@
 (* Quit program - OS.Process.exit(OS.Process.success); *)
 
 (* Define your data type and functions here *)
-datatype 'element Set = nil
-   | ins of 'element * 'element Set;
+datatype 'element set = Empty
+   | Set of 'element * 'element set;
 
 fun f [] = [] (* a if the list is empty, the empty list is returned*)
    | f (x::xs) = (x + 1) :: (f xs); (* b if the list is not empty, 1 is added to every value in the list*)
 
-fun isMember e Set = ;
+fun isMember e set = ;
 
 (*(* Simple function to stringify the contents of a Set of characters *)
 fun stringifyCharSet Empty = ""

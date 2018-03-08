@@ -12,17 +12,22 @@ Lab Questions
 
 4. b if the list is not empty, 1 is added to every value in the list
 
-5.
+5. Question 5: false
 
-6.
+6. Head recursion, because the recursive call is not the last thing the function
+   does.
 
-7.
+7. Question 7: { best times, it was the worst of times }
 
-8.
+8. A function is considered to be tail recursive if the recursive call is the
+   last thing done by the function. Tail recursion functions can be optimized
+   more by the compiler through tail call elimination because the recursive call is the last statement in the
+   function so there is nothing left in that instance of the function to keep
+   track of.
 
-9.
+9. Question 9: { and eggs green ham }
 
-10.
+10. Question 10: { macaroni and }
 
 11.
 

@@ -34,10 +34,15 @@ Lab Questions
     as opposed to making changes in the code and compiling the program each time
     to test something.
 
-12.
+12. I dislike variables not being mutable in ML. The reason I dislike this is simply
+    because I am not used to it and have never used a programming language like this.
 
-13.
+13. I did not enjoy this lab because I struggled learning ML and spent many hours making
+    little to no progress. I disliked the way ML works, not being able to easily
+    modify variables within functions. The only thing I did enjoy about the lab was the feeling
+    of it being completed.
 
-14.
+14. 20 hours
 
-15.
+15. I don't think I will ever use ML again unless it is required by a future class
+    or job.

@@ -29,7 +29,10 @@ Lab Questions
 
 10. Question 10: { macaroni and }
 
-11.
+11. I like that when you run a program in the command line you can dynamically
+    test the program with any variables you create there. This makes testing easy
+    as opposed to making changes in the code and compiling the program each time
+    to test something.
 
 12.
 
